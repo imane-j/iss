@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+
+
+#issMap {
+    height: 400px;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 100;
+}
+h1 {
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+p {
+    color: #fff;
+    text-align: center;
+}
+@media (max-width: 320px) {
+	p {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	}
+}
+.longitude {
+    margin-bottom: 50px;
+}
+.longitude span, .latitude span {
+    background-color: #ffcf03;
+    padding: 10px 80px;
+    color: #000;
+    border: 3px solid #fff;
+}
+
+nav ul{
+	background-color: #ffcf03;
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li:hover{
+	background-color: rgb(27, 27, 27);
+}
+a{
+	text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #ffcf03;
+}
+.contenu_textuel {
+    padding: 50px 0;
+}
+.bouton {
+	width: 100%;
+	background-color: #f9e815;
+	box-sizing: border-box;
+	padding: 15px;
+	cursor: pointer;
+	color: white;
+	display: none;
+}
+p.menu{
+	display: inline-block;
+}
+.menu_icon div {
+  background-color: white;
+  border-radius: 2px;
+  width: 35px;
+  height: 5px;
+  margin: 5px;
+}
+.menu_icon{
+	float: right;
+	margin: .5em 0;
+}
+@media screen and (max-width: 620px){
+	nav ul{
+		max-height: 0px;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+	}
+	.visible{
+		max-height: 20em; 
+	}
+	.bouton{
+		display: block;
+	}
+	header h1{
+		font-size: 3em;
+	}
+}
+
+
+
+.os-scrollbar-handle {
+	background-color: #3E3E3E!important;
+}
+.os-scrollbar-track {
+	background-color: #fff!important;
+}
+
