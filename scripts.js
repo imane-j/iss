@@ -9,7 +9,7 @@ tiles.addTo(mymap);
 // Je crée l'icone qui vaa représenter la station spatiale
 
 var issIcon = L.icon({
-  iconUrl: 'data/icone_petite.svg',
+  iconUrl: 'icone_petite.svg',
   iconSize: [20, 20],
   iconAnchor: [10, 10],
   popupAnchor: [-3, -76]
